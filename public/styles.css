@@ -2,5 +2,16 @@ body {
   background-color: #0e7582;
   color: white;
   font-size: 16px;
-  align-content: center;
+  text-align: center;
+}
+.jumbotron {
+  background-color: #6b727f;
+  margin-top: 20px;
+  font-family: monospace;
+}
+.image {
+  position: static;
+  padding-top: 15px;
+  bottom: 5px;
+  left: 50%;
 }
