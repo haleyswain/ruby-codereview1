@@ -11,5 +11,3 @@ get('/result') do
   @answer = params.fetch('phrase').word_count(params.fetch('word'))
   erb(:result)
 end
-
-run Sinatra::Application.run!
